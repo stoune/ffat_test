@@ -8,7 +8,7 @@ It's an ESP32-based board with 4MB of flash memory.
 # How to use FFAT?
 
 1. Add to platfromio.ini `board_build.filesystem = fatfs`
-2. Select the right partition layout option `board_build.partitions = noota_3gffat.csv` with some partition layout .csv. You may chose some predefined partition layout form ESP-IDF.
+2. Select the right partition layout option `board_build.partitions = noota_3gffat.csv` with some partition layout .csv. You may chose some predefined partition layout from ESP-IDF example. I used `noota_3gffat.csv`.
 3. Create a data folder and put in the files that you want to upload to the board flash memory.
 4. PlatformIO -> Board Configuration -> Build Filesystem Image (see image below)
 5. PlatformIO -> Board Configuration -> Upload filesystem Image (see image below)
